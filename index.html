@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa do Lucro Pessoal | O dinheiro entra, some e você nem sabe pra onde foi?</title>
+<meta name="description" content="A planilha pra você descobrir pra onde vai o seu dinheiro, quanto sobra no fim do mês e quanto você está investindo.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mapa do Lucro Pessoal | O dinheiro entra, some e você nem sabe pra onde foi?">
+<meta property="og:description" content="Descubra pra onde vai o seu dinheiro, quanto sobra no fim do mês e veja seu trabalho virando dinheiro no seu bolso.">
+<meta property="og:image" content="https://mapa-do-lucro-pessoal.vercel.app/og.jpg">
+<meta property="og:url" content="https://mapa-do-lucro-pessoal.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%233ba673%22/><text x=%2250%22 y=%2266%22 font-size=%2248%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22 font-weight=%22bold%22>M</text></svg>">
+<link rel="preload" as="image" href="img/hero_fan.webp">
+<!-- Microsoft Clarity: mapa de calor e gravações (projeto "Mapa do Lucro Pessoal - Página de Vendas") -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","zgqwyga300");
+</script>
+<!-- Meta Pixel: cole aqui o código do Pixel que o Robson enviar -->
+<!-- Meta Pixel: cole aqui o código do Pixel que o Robson enviar -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#13201a;
+    --soft:#4f5d56;
+    --accent:#3ba673;      /* verde claro do "no escuro" */
+    --cta:#2f9e6b;         /* verde do botão atual, um tom mais firme */
+    --cta-hover:#268a5c;
+    --line:#e3f1e9;
+    --tint:#f3faf6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#fff;color:var(--ink);font-family:Karla,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:600px;margin:0 auto;padding:0 22px}
+  section{padding:56px 0;text-align:center}
+  section + section{border-top:1px solid var(--line)}
+  .brand{font-size:12px;letter-spacing:.32em;text-transform:uppercase;font-weight:700;padding:26px 0 0;text-align:center;color:var(--soft)}
+  .brand b{color:var(--accent)}
+  h1,h2{font-weight:800;letter-spacing:-.025em;line-height:1.05;margin:0 0 18px}
+  h1{font-size:clamp(42px,11vw,64px)}
+  h2{font-size:clamp(30px,7.6vw,42px)}
+  .hl{color:var(--accent)}
+  p{font-size:18px;line-height:1.55;color:var(--soft);margin:0 auto 14px;max-width:30em}
+  p strong{color:var(--ink)}
+  .shot{margin:30px auto 8px;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px -18px rgba(20,70,45,.28);border:1px solid var(--line);background:#fff}
+  .shot img{display:block;width:100%;height:auto}
+  .cap{font-size:12.5px;color:#8a9a91;margin-top:10px}
+  .wide{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:14px;margin:30px 0 8px}
+  .solo{display:block;width:72%;max-width:340px;aspect-ratio:4/5;object-fit:cover;border-radius:20px;margin:30px auto 0;box-shadow:0 18px 50px -18px rgba(20,70,45,.28)}
+  .photos{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0}
+  .photos img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;display:block}
+  .stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .stat{background:var(--tint);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:15px;font-weight:700}
+  .stat span{color:var(--accent)}
+  .list{list-style:none;padding:0;margin:26px auto 0;text-align:left;max-width:440px}
+  .list li{display:flex;gap:12px;align-items:flex-start;font-size:17px;line-height:1.45;padding:11px 0;border-bottom:1px solid var(--line);color:var(--soft)}
+  .list li:last-child{border-bottom:0}
+  .list b{color:var(--ink)}
+  .dot{flex:none;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:800;display:grid;place-items:center;margin-top:2px}
+  .ig{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+  .igc{border:1px solid var(--line);border-radius:16px;padding:18px 14px;text-align:left}
+  .igc .h{font-weight:800;font-size:15px;display:flex;align-items:center;gap:6px}
+  .igc .v{width:15px;height:15px;border-radius:50%;background:#3897f0;color:#fff;font-size:10px;display:grid;place-items:center}
+  .igc .n{font-size:30px;font-weight:800;margin-top:10px;letter-spacing:-.02em}
+  .igc .l{font-size:13px;color:var(--soft)}
+  .big{font-size:clamp(46px,12vw,64px);font-weight:800;color:var(--accent);letter-spacing:-.03em;line-height:1;margin:6px 0 10px}
+  .mock{margin:30px -3% 8px}
+  .mock img{display:block;width:100%;height:auto}
+  .mock.fan{margin:26px -16% 4px}
+  @media (max-width:520px){ .mock.fan{margin:22px -18px 4px} }
+  .mock.wide2{margin:28px -10% 4px}
+  @media (max-width:520px){ .mock.wide2{margin:24px -14px 4px} }
+  .browser{position:relative;max-width:470px;margin:30px auto 46px;background:#f2f8f4;border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 50px -28px rgba(20,70,45,.4);text-align:left}
+  .bbar{display:flex;align-items:center;gap:7px;padding:12px 14px}
+  .bbar i{width:10px;height:10px;border-radius:50%;background:#ff5f57}.bbar i:nth-child(2){background:#febc2e}.bbar i:nth-child(3){background:#28c840}
+  .bbar span{flex:1;height:12px;border-radius:6px;background:#e0ede5;margin-left:10px}
+  .bbody{background:#fff;margin:0 14px 16px;border-radius:12px;padding:16px 18px 62px;border:1px solid var(--line)}
+  .bmeta{font-size:12.5px;color:#8a9a91;display:flex;justify-content:space-between}.bmeta b{letter-spacing:.1em}
+  .brow{display:flex;gap:14px;align-items:center;margin-top:16px}
+  .bt{font-weight:800;font-size:17px;letter-spacing:.02em}.bs{font-size:13.5px;color:var(--soft)}
+  .badge{position:absolute;right:-14px;bottom:-30px;transform:rotate(-4deg);background:linear-gradient(120deg,#9be0b6 0%,#4cb984 50%,#2a8f62 100%);color:#fff;border-radius:16px;padding:14px 22px 16px;box-shadow:0 18px 30px -12px rgba(40,130,85,.55);text-align:left}
+  .bn{font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1}.bl{font-size:13.5px;font-weight:700;line-height:1.25;margin-top:4px}
+  @media (max-width:520px){ .badge{right:-6px} }
+  .mock.sm{margin:-6px -6% 18px}
+  .bridge{border-top:0 !important;padding:30px 0 50px}
+  .rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+  .rv.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+  .guarantee{display:flex;gap:16px;align-items:flex-start;text-align:left;background:#fff;border:1px dashed #b9dcc9;border-radius:20px;padding:20px 20px 18px;margin-top:22px}
+  .gicon{flex:none;width:52px;height:52px;border-radius:50%;background:#e9f6ef;display:grid;place-items:center}
+  .gt{font-weight:800;font-size:17px;margin:2px 0 6px}
+  .guarantee p{font-size:15.5px;margin:0;max-width:none}
+  /* Oferta */
+  .offer{background:var(--tint);border-top:0}
+  .card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:30px 22px 26px;box-shadow:0 24px 60px -30px rgba(20,70,45,.35)}
+  .card .shot{margin:0 0 22px;box-shadow:none}
+  .pname{font-size:13px;letter-spacing:.28em;text-transform:uppercase;font-weight:800;color:var(--accent)}
+  .pdesc{font-size:16px;margin:10px auto 18px}
+  .from{font-size:16px;color:#8a9a91;text-decoration:line-through}
+  .price{font-size:clamp(56px,15vw,76px);font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink);margin:4px 0 6px}
+  .price small{font-size:.42em;letter-spacing:0;vertical-align:.95em;margin-right:4px}
+  .inst{font-size:15px;color:var(--soft);margin-bottom:22px}
+  .btn{display:block;width:100%;background:var(--cta);color:#fff;text-decoration:none;font-weight:800;font-size:19px;padding:20px 18px;border-radius:999px;box-shadow:0 14px 30px -12px rgba(47,158,107,.7);transition:background .15s,transform .15s}
+  .btn:hover{background:var(--cta-hover);transform:translateY(-1px)}
+  .checks{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:8px;font-size:15.5px;font-weight:700;color:var(--ink)}
+  .checks li::before{content:"✓";color:var(--cta);margin-right:8px;font-weight:800}
+  .pay{margin-top:20px;font-size:13px;color:#8a9a91;display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap}
+  .pay span{border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-weight:700;color:var(--soft);background:#fff}
+  footer{text-align:center;font-size:12.5px;color:#8a9a91;padding:28px 0 40px;background:var(--tint)}
+  footer a{color:#8a9a91}
+  @media (max-width:420px){ .brand{font-size:10.5px;letter-spacing:.2em} section{padding:46px 0} p{font-size:17px} .ig .n{font-size:26px} }
+</style>
+</head>
+<body>
+
+<div class="brand">Mapa do Lucro Pessoal<b>.</b> · Carolina Scudeller</div>
+
+<!-- 1. O QUE A PESSOA QUER -->
+<section>
+  <div class="wrap">
+    <h1>O dinheiro entra, some e você nem sabe <span class="hl">pra onde foi?</span></h1>
+    <p>Descubra pra onde vai o seu dinheiro, quanto sobra no fim do mês e finalmente veja o seu trabalho virando<br><span style="white-space:nowrap"><strong>dinheiro no seu bolso</strong>.</span></p>
+    <div class="mock fan"><img src="img/hero_fan.webp" alt="Mapa do Lucro Pessoal em tablets: painel, lançamentos, gráficos e visão anual"></div>
+    <div class="cap">Planilha demo, com dados fictícios.</div>
+  </div>
+</section>
+
+<!-- 2. POR QUE ACREDITAR -->
+<section>
+  <div class="wrap">
+    <h2>A mesma planilha que eu uso <span class="hl">pro meu dinheiro.</span></h2>
+    <p>Depois de colocar o caixa do meu negócio em ordem com o Mapa do Lucro, faltava o outro lado: o dinheiro de casa. Então criei a versão pessoal com a mesma lógica que já funcionava na minha empresa: <strong>simples, visual e gostosa de preencher.</strong></p>
+    <img loading="lazy" decoding="async" class="solo" src="img/carol.jpg" alt="Carolina Scudeller">
+  </div>
+</section>
+
+<!-- 3. O QUE A PESSOA RECEBE -->
+<section>
+  <div class="wrap">
+    <h2>Você lança o que entra e o que sai. <span class="hl">O Mapa faz o resto.</span></h2>
+    <div class="mock wide2"><img loading="lazy" decoding="async" src="img/m_explode.webp" alt="Painel do Mapa do Lucro Pessoal com os principais números em destaque"></div>
+    <ul class="list">
+      <li><span class="dot">1</span><div><b>Quanto sobrou de verdade.</b> A sobra real do mês, sem chute.</div></li>
+      <li><span class="dot">2</span><div><b>Pra onde o dinheiro está indo.</b> Gastos por categoria, pra achar o que está vazando.</div></li>
+      <li><span class="dot">3</span><div><b>Quanto você investiu.</b> Com uma meta só pra isso, porque dinheiro investido não é gasto: virou patrimônio.</div></li>
+      <li><span class="dot">4</span><div><b>Como o mês está andando.</b> Semana a semana, com quanto da meta de renda você já bateu.</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 5. RETOMA O DESEJO -->
+<section>
+  <div class="wrap">
+    <h2>Você não precisa ganhar mais pra sobrar. <span class="hl">Precisa ver pra onde o seu dinheiro está indo.</span></h2>
+    <p>Em vez de chegar no fim do mês sem saber onde o dinheiro foi parar, você abre o Mapa e sabe <strong>o que cortar, quanto investir e quanto fica livre pra você.</strong></p>
+    <div class="mock wide2"><img loading="lazy" decoding="async" src="img/m_grid.webp" alt="Mapa do Lucro Pessoal no celular e no tablet, com as telas da planilha ao fundo"></div>
+  </div>
+</section>
+
+<!-- 5b. PONTE PARA A OFERTA -->
+<section class="bridge">
+  <div class="wrap">
+    <h2>Mais um mês sem saber pra onde vai o seu dinheiro <span class="hl">custa muito mais que R$&nbsp;67.</span></h2>
+    <p>Pare de gastar no chute. Com o Mapa do Lucro Pessoal, você fecha o próximo mês sabendo <strong>quanto entrou, quanto saiu e quanto sobrou pra você.</strong></p>
+  </div>
+</section>
+
+<!-- 6. OFERTA -->
+<section class="offer" id="oferta">
+  <div class="wrap">
+    <div class="card">
+      <div class="mock sm"><img loading="lazy" decoding="async" src="img/offer_mock.webp" alt="Mapa do Lucro Pessoal: painel, visão anual e lançamentos"></div>
+      <div class="pname">Mapa do Lucro Pessoal</div>
+      <p class="pdesc">12 meses de lançamentos, painéis mensais com meta de renda e meta de investir, visão anual e instruções simples. Uma compra, pra todos os próximos anos.</p>
+      <!-- PREENCHER: preço, parcelamento e link do checkout da Greenn do Mapa do Lucro Pessoal -->
+      <div class="price"><small>R$</small>67</div>
+      <div class="inst">à vista ou 12x de R$ 6,89 no cartão</div>
+      <a class="btn" href="#oferta">Quero ver pra onde vai meu dinheiro</a>
+      <ul class="checks">
+        <li>Acesso imediato</li>
+        <li>7 dias de garantia incondicional</li>
+        <li>Pagamento único, acesso vitalício</li>
+      </ul>
+      <div class="pay">🔒 Compra 100% segura</div>
+    </div>
+    <div class="guarantee">
+      <div class="gicon"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#2f9e6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.6-3.4 8.3-8 9-4.6-.7-8-4.4-8-9V6l8-3z"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8"/></svg></div>
+      <div><div class="gt">Garantia incondicional de 7&nbsp;dias</div>
+      <p>Teste a planilha no seu dia a dia e, se não for o que você esperava, <strong>devolvemos 100% do seu dinheiro.</strong> É só pedir dentro de 7 dias.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Mapa do Lucro Pessoal · <a href="https://lp-carolina-planilha.vercel.app/privacidade">Política de privacidade</a></footer>
+
+<script>
+/* Leva as UTMs e parâmetros da visita até o checkout da Greenn */
+(function(){try{var q=location.search;if(!q)return;var p=new URLSearchParams(q);
+document.querySelectorAll('a[href*="greenn.com.br"]').forEach(function(a){var u=new URL(a.href);p.forEach(function(v,k){if(!u.searchParams.has(k))u.searchParams.set(k,v)});a.href=u.toString();});}catch(e){}
+try{window.clarity&&clarity("set","versao_pagina","pf_clean")}catch(e){}})();
+</script>
+<script>
+/* Textos e imagens aparecem suavemente ao rolar (estilo Leislin) */
+(function(){try{if(!('IntersectionObserver' in window))return;var els=document.querySelectorAll('section:not(:first-of-type) .wrap > *');var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});els.forEach(function(el){el.classList.add('rv');io.observe(el)});}catch(e){}})();
+</script>
+</body>
+</html>
